@@ -1,0 +1,414 @@
+{
+  "source_repository": "https://github.com/basitalisandhu/agent-skills-state-2026",
+  "snapshot_commit": "74279108cb0b9ee72e9435d237e97444494f4e8f",
+  "snapshot_source": "https://github.com/alexar76/agent-skills-state-2026",
+  "snapshot_archive_sha256": "d4f92a5ab1fc53285d9497c41001a69fb6025ab3a21e6c07fda7d37e2eb221ec",
+  "original_author": "Muhammad Basit Ali",
+  "licenses": {
+    "code": "MIT (LICENSE)",
+    "data": "CC BY 4.0 (LICENSE-DATA)"
+  },
+  "local_changes": "Fresh local Git history only. Imported source files are byte-identical; upstream attribution, citations and licensing retained. This import does not claim independent authorship or reproduction of the study.",
+  "source_files": [
+    {
+      "path": ".github/dependabot.yml",
+      "sha256": "8195e00fa1d1e75f591c834a3bf6d31bfafe24b29b4992607c5f72b39399f42d"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "87efd6285e2f615b378ea4bb4daf0b2733bf4b957cd4b7b7772e5c3f709e1e9f"
+    },
+    {
+      "path": ".github/workflows/monthly.yml",
+      "sha256": "ba699df0acf7fce9ad94bb5df649d14fa8b2a9452b15b02f2eb1fac4a7962b30"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "9aac107911b3e704e7e511ceb6b14f1e481750b81cf887f4e853df586754018a"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "5fb94b5b4606ea7354161a8e7826cd6fe1fbc0ecf3867875e283f56ecc5985d4"
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "0ec2313a673a06f26ba8ee883b012f982004e7b9e6919d0eb30f6789c3c3c355"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "497c0a996dd65a42e71c1354b2f664da4b043c8c6f757443561c5013b3e835c0"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "65e2be7c09c2567bb8dc926f5e83b2ece6ae0ab3deb9a8b40d761f4d0e48c786"
+    },
+    {
+      "path": "LICENSE-DATA",
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "path": "METHOD.md",
+      "sha256": "822152a3432d1acc6ea4ac4cc564f41de1bd6862a42894a1fee86eb798b76bde"
+    },
+    {
+      "path": "README.md",
+      "sha256": "4f64eaff342ce62ffbe95a3c2e690dd174ccbe2b7fc3e7df913fca061696f5b5"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "564da141ea2a3c0eb0370a3f9160ca2fc930fb996720095eb36ba47190016235"
+    },
+    {
+      "path": "charts/chart1-prevalence.png",
+      "sha256": "89e4f907ff86d7e0d4c5cf690f5c9762767d5ca4e2615020764df4f71792780e"
+    },
+    {
+      "path": "charts/chart2-by-stars.png",
+      "sha256": "467933f00fd98e6b6e4aa8d23726f0053fe1ec012cd060deaa5ecef67588108a"
+    },
+    {
+      "path": "charts/chart3-precision.png",
+      "sha256": "cd9a09691e88787ed2dcf0579e06eb01b939b29369f2c6dd51f5219ec762f64d"
+    },
+    {
+      "path": "charts/trend.png",
+      "sha256": "3134523d7dcfbffb119355d47e04940ff95207a7c725f84671ccd936394c662b"
+    },
+    {
+      "path": "data/2026-10/annotations/hand-check.csv",
+      "sha256": "dc264d9816bae733ff9ffe422eb74accd26d1c3b986f001a2d21ed1b4df2db21"
+    },
+    {
+      "path": "data/2026-10/annotations/repos.csv",
+      "sha256": "b3b121dfce0e8343f7062c45b2723494f36eeeace987ada1c5119e1e5b0aa8dc"
+    },
+    {
+      "path": "data/2026-10/annotations/results.json",
+      "sha256": "18565d423c1d3242c8ec8b7490ca282957b4fd7233b2bd35df3d919e93bb7c3b"
+    },
+    {
+      "path": "data/2026-10/annotations/tools.csv",
+      "sha256": "2b062e15cad73161e848c1cc64acfd8f445eaee702e6b1d1ca9799d832ba82a4"
+    },
+    {
+      "path": "data/2026-10/chart-data.csv",
+      "sha256": "1a265de5ce52c38943f2a91cd6613ab65981083e783d2f373d752199391dfa1d"
+    },
+    {
+      "path": "data/2026-10/dataset.csv",
+      "sha256": "03ba0d3d7255398062b2341d90e25f53a4d62ba225a02dc675969706ee04a1bc"
+    },
+    {
+      "path": "data/2026-10/dataset.json",
+      "sha256": "c07a337792e2ce62658b6200ac3c8a452ccbd743c9e2a44aed9d870c71d7e893"
+    },
+    {
+      "path": "data/2026-10/precision.csv",
+      "sha256": "159391ddca9c25156ff6ae6a1844021cca6ab69ab4b54f435c4e741326d4cea0"
+    },
+    {
+      "path": "data/2026-10/readme-pins/commands.csv",
+      "sha256": "6e38f20cf8d8168abd938edbc12a7bc4124976fd7e2003ba505045da4e108809"
+    },
+    {
+      "path": "data/2026-10/readme-pins/hand-check.csv",
+      "sha256": "53620956c92454a21f2516402a2e7cfbc7c88d05a1de9f4b6a0af15f8fe3a774"
+    },
+    {
+      "path": "data/2026-10/readme-pins/repos.csv",
+      "sha256": "4b64478b68844a460aa14dc0424ee8afde25e36a5a3faaf82334c744789d086b"
+    },
+    {
+      "path": "data/2026-10/readme-pins/results.json",
+      "sha256": "66be6824a8ec5cd516b399e9791ae196c095b7a46da33e69a6dcae10abf891f8"
+    },
+    {
+      "path": "data/2026-10/secret_rules_aggregate.csv",
+      "sha256": "6492074e1e4e492c6282588856ab62a8dc20937c0e035fa1457c6ffeb5f4c1f7"
+    },
+    {
+      "path": "data/2026-10/skill-bash/hand-check.csv",
+      "sha256": "75235ee83bb9b519f9116bdc3efd44fa8b7b07776541b5b1c3e9cfc7bd4ae3e5"
+    },
+    {
+      "path": "data/2026-10/skill-bash/repos.csv",
+      "sha256": "80ea5732ee7cc3e3fb80ab34515ef572dd83b7bc1ce88694c40d19d8146f69a3"
+    },
+    {
+      "path": "data/2026-10/skill-bash/results.json",
+      "sha256": "348cd40b296fb4151aa865c462a729fd69faeccdb4b433057e8d70b4616a977c"
+    },
+    {
+      "path": "data/2026-10/skill-bash/skills.csv",
+      "sha256": "f9a38d46935d8ba24f51075def81a5a62bcf23c0254487bc4d77c3558fde2614"
+    },
+    {
+      "path": "data/2026-10/stats.json",
+      "sha256": "3854ed6bcd21a8a5dfdbba2639412b323d50e795ce13def2249c1024bfd9edbe"
+    },
+    {
+      "path": "data/chart-data.csv",
+      "sha256": "1a265de5ce52c38943f2a91cd6613ab65981083e783d2f373d752199391dfa1d"
+    },
+    {
+      "path": "data/dataset.csv",
+      "sha256": "03ba0d3d7255398062b2341d90e25f53a4d62ba225a02dc675969706ee04a1bc"
+    },
+    {
+      "path": "data/dataset.json",
+      "sha256": "c07a337792e2ce62658b6200ac3c8a452ccbd743c9e2a44aed9d870c71d7e893"
+    },
+    {
+      "path": "data/precision.csv",
+      "sha256": "159391ddca9c25156ff6ae6a1844021cca6ab69ab4b54f435c4e741326d4cea0"
+    },
+    {
+      "path": "data/secret_rules_aggregate.csv",
+      "sha256": "6492074e1e4e492c6282588856ab62a8dc20937c0e035fa1457c6ffeb5f4c1f7"
+    },
+    {
+      "path": "data/stats.json",
+      "sha256": "3854ed6bcd21a8a5dfdbba2639412b323d50e795ce13def2249c1024bfd9edbe"
+    },
+    {
+      "path": "data/trend.csv",
+      "sha256": "f92b8bb81c1065b7e4b163f79b6ba8d6bbea0bfef653dfc8fae1603ef4720b83"
+    },
+    {
+      "path": "docs/mcp-readme-install-pins.md",
+      "sha256": "48522da877e6ca85b40db4c18a80c26f1660ab500cde410b321915e1946f7e62"
+    },
+    {
+      "path": "docs/mcp-tool-annotations.md",
+      "sha256": "c932262b7de93581e4534ad9a223046696a19ac97c2e3b3ae8bc2507062b8c96"
+    },
+    {
+      "path": "docs/monthly-run.md",
+      "sha256": "8d857e1ae7e95f40f0484c2045be713732c032cbb4064b0adf98227b773f7397"
+    },
+    {
+      "path": "docs/querying-the-dataset.md",
+      "sha256": "8fddaedc9216475c42524e56941104536434b66c9b9c7e577ddbfc1e1f5c5905"
+    },
+    {
+      "path": "docs/skills-with-unscoped-bash.md",
+      "sha256": "1dc8c3c30e4b4b1305c33d80fb5d4eb7f30880cabaa172ee3e5eed34d5a1688b"
+    },
+    {
+      "path": "scripts/README.md",
+      "sha256": "50c14e33e5cbdc2c61df5abcce56287308bf43b540a5b057107f009daf271e54"
+    },
+    {
+      "path": "scripts/annotations.py",
+      "sha256": "24567bbf948eb3f03252827eb8ed46d9550a7b6a088bcac4c2b97cb093d5e685"
+    },
+    {
+      "path": "scripts/annotations_fetch.py",
+      "sha256": "8dcd7c9a0cf03078ceb63036be9ca2983b317f36e3040a5d8bc7a028ed17d746"
+    },
+    {
+      "path": "scripts/build.py",
+      "sha256": "93a173165a24b63bf405bacc3fcb245f46894e4b682de1bb8f15128dccc24465"
+    },
+    {
+      "path": "scripts/candidates.py",
+      "sha256": "c83425ed5c9b628c1437a5879e5c6df723b2bbf84ed4026cc8a14f76307f5b96"
+    },
+    {
+      "path": "scripts/charts.py",
+      "sha256": "ea04f1a3ec551c5f7fc9ae48faa0b8c56c478b488218e8fddbd6fe2aa149e241"
+    },
+    {
+      "path": "scripts/check_numbers.py",
+      "sha256": "687607d6be0b9c1b4e7d2794af62429192e06bcd786664b607a3f63d70cf342f"
+    },
+    {
+      "path": "scripts/collect.py",
+      "sha256": "3cd1c9970bad557426e0eca165165ea56e8bfb0d92389d39fb8947b9f16e2144"
+    },
+    {
+      "path": "scripts/draw_sample.py",
+      "sha256": "592ea69a90fca3918e725fb36ba7d907a1c5bb5686d25a22e3497cea755f3a43"
+    },
+    {
+      "path": "scripts/fetch.py",
+      "sha256": "2c4c31c8aea8e0d80646381e0e33c981e983f6086fb9d54d1c17c80a8fc0f7b4"
+    },
+    {
+      "path": "scripts/hooknet.py",
+      "sha256": "af1f1ecf052a77783228ed777baac7b000962e7c9957b325d0fb64c0328a888a"
+    },
+    {
+      "path": "scripts/livecheck.py",
+      "sha256": "97048c9c3858f28340212152b75ba161524f0f9f1123af5c1ae9ccda8810e389"
+    },
+    {
+      "path": "scripts/mcplint.py",
+      "sha256": "22b060cdd10e13cfceaba26e26336943d730518b59f9c4bb4e157e955c8b22f8"
+    },
+    {
+      "path": "scripts/meta.py",
+      "sha256": "23e3b68f12f358f7c929fdb5157a598ace428e8152aca722c00100c5b8003076"
+    },
+    {
+      "path": "scripts/plot_trend.py",
+      "sha256": "6cf1cc6d6d03dfb08e7edf827bcfea50a12a1ddc9cdfe241718e980094c2bb83"
+    },
+    {
+      "path": "scripts/readme_pins.py",
+      "sha256": "42e4574506978496cdbac507b73578210ce167b86c81648c577b456951d3a8cd"
+    },
+    {
+      "path": "scripts/readme_pins_fetch.py",
+      "sha256": "c5bdf2e3bd33e6fb38e25419b3d95406e6178b36f99fc49e83d776c885b76569"
+    },
+    {
+      "path": "scripts/run_month.py",
+      "sha256": "1cf81c7748376232edd3ed564aa7986f507545202363e8d5ecffc04ec92e4878"
+    },
+    {
+      "path": "scripts/sample.py",
+      "sha256": "c7d780cd5ff500cd1a26a2003363265298199307579cc4ca69f62dbc1b6e5409"
+    },
+    {
+      "path": "scripts/scan.py",
+      "sha256": "b97c41b63eb8dd8810828818048150e49bc2c2aeb42f4381557073b577160321"
+    },
+    {
+      "path": "scripts/secretfeat.py",
+      "sha256": "83a9cdd3b16d6839368419461caac2911211e441a9955d81e24968f8d0d6fdda"
+    },
+    {
+      "path": "scripts/secretsample.py",
+      "sha256": "697e66406f8b1aafe03f530bcb7a0b1018322c73cdd1579aec53433c3cd44797"
+    },
+    {
+      "path": "scripts/skill_bash.py",
+      "sha256": "9bde2143233b705ac1827475cc13334ce6083b59c18c5e26cd0496c94cbe9cc1"
+    },
+    {
+      "path": "scripts/skill_bash_fetch.py",
+      "sha256": "8ef91959de0659e069708ea189d00474a65aa5c6073965934c8b3bf14b01be34"
+    },
+    {
+      "path": "scripts/stats.py",
+      "sha256": "ada6ab621690b645e44c8dddfb7f5c24acef06524c0fb43a0603c961ea49ed8e"
+    },
+    {
+      "path": "tests/fixtures/annotations/dataset.json",
+      "sha256": "5d6f58d797c8edeaf5b9adaff04f95e63352391651626a00567baf0b9deb38e9"
+    },
+    {
+      "path": "tests/fixtures/annotations/work/fetch_log.jsonl",
+      "sha256": "ec765ec2fddd552314a11d7039dc812912b14c25f70f2eb8760ca034f70527ce"
+    },
+    {
+      "path": "tests/fixtures/annotations/work/src/fixture__repo/cs/Tools.cs",
+      "sha256": "114f2b5620f1d6622997d6c2e2caa4830383df374cf994acec20ad6b5b5ab16b"
+    },
+    {
+      "path": "tests/fixtures/annotations/work/src/fixture__repo/go/main.go",
+      "sha256": "6d9e95796a18df9c9366c46902a0129a3a70c87fdf0f13b325325dfbb7040d39"
+    },
+    {
+      "path": "tests/fixtures/annotations/work/src/fixture__repo/py/server.py",
+      "sha256": "5f3d47ed45adc844426d26f12f27af25310456129b6a7146230282242d334d1a"
+    },
+    {
+      "path": "tests/fixtures/annotations/work/src/fixture__repo/rs/lib.rs",
+      "sha256": "8b2ea2b11250d197d546841dbc8a48becdb15d316adecdf5ee503f57123c1386"
+    },
+    {
+      "path": "tests/fixtures/annotations/work/src/fixture__repo/src/lowlevel.js",
+      "sha256": "5992119a13f628f8d9cd3a3a606c72be459946cf9e08605d761daf5c8a9c4755"
+    },
+    {
+      "path": "tests/fixtures/annotations/work/src/fixture__repo/src/server.ts",
+      "sha256": "a12bc5492f1a011e3daa959cb42b723c655812ebfa1eb00b84ff0d25f75bf5a2"
+    },
+    {
+      "path": "tests/fixtures/readme_pins/dataset.json",
+      "sha256": "8340347dae9497474ac9a11062868f6a8a9c41f294d63a1b6915caf11ebe438e"
+    },
+    {
+      "path": "tests/fixtures/readme_pins/work/fetch_log.jsonl",
+      "sha256": "299b56346aaada9eaf76139f47ccb0cb2e76c673d7ff6c876b7e7bd1ca9ea769"
+    },
+    {
+      "path": "tests/fixtures/readme_pins/work/src/fixture__other/README.md",
+      "sha256": "02f8931b70b518157215819296a43d8582653e6a1f7474d002d28275a4595ca1"
+    },
+    {
+      "path": "tests/fixtures/readme_pins/work/src/fixture__other/server.json",
+      "sha256": "99ee5787c728e9f8193ff3b3acea9e0b0e19fc3044a4df6df0e7ca886a702cd6"
+    },
+    {
+      "path": "tests/fixtures/readme_pins/work/src/fixture__server/README.md",
+      "sha256": "fae7e72c2417159f15943e37034d1c6538183f0398a73df7647eb40c2ae5676e"
+    },
+    {
+      "path": "tests/fixtures/readme_pins/work/src/fixture__server/packages/sub/README.md",
+      "sha256": "0d61d126c35f347b3b8051b8d0f58981e166facd8013d854811adbeed6fb9fbb"
+    },
+    {
+      "path": "tests/fixtures/readme_pins/work/src/fixture__server/packages/sub/server.json",
+      "sha256": "a46fbff665989ec3b3063a17aff0248bccf9e4aaee369c2345e5eecdff8f1b0e"
+    },
+    {
+      "path": "tests/fixtures/readme_pins/work/src/fixture__server/server.json",
+      "sha256": "60f65b2dd1389f2fd00cd7ad0d9f58a9230a4a1afe52c8f6db9dc22aff8b98ff"
+    },
+    {
+      "path": "tests/fixtures/skill_bash/dataset.json",
+      "sha256": "2af1f505883507833cd765f6132944702fd3857bd0b62753469afdef98be2394"
+    },
+    {
+      "path": "tests/fixtures/skill_bash/work/fetch_log.jsonl",
+      "sha256": "0ec72f96b0e55b2b9afbac245b319630b92b4180c5b252b4d2c413fc9c162f42"
+    },
+    {
+      "path": "tests/fixtures/skill_bash/work/src/fixture__skills/skills/net/SKILL.md",
+      "sha256": "7e2a6c055f1884e108bde63958e1253fbe19a0cc258d99d3eb2c3648b407a8b1"
+    },
+    {
+      "path": "tests/fixtures/skill_bash/work/src/fixture__skills/skills/net/notes.md",
+      "sha256": "d49823de64142514d4d79cd8c63f3833cde187b05f854661f42c6021dec5c376"
+    },
+    {
+      "path": "tests/fixtures/skill_bash/work/src/fixture__skills/skills/net/scripts/run.py",
+      "sha256": "07a7343af2a7ad5f93842fceb18d4fb146749dae2ee35693cefa5ddfb6a8aaf0"
+    },
+    {
+      "path": "tests/fixtures/skill_bash/work/src/fixture__skills/skills/quiet/SKILL.md",
+      "sha256": "512ab7549a7785bbfd15373ae3e63b924a062dfc4fb260c62b347a1a83f6c446"
+    },
+    {
+      "path": "tests/fixtures/skill_bash/work/src/fixture__skills/skills/scoped/SKILL.md",
+      "sha256": "c2167dfb464718c2482141240a33b90b81d2a495f74f4e5a9838a7f496074964"
+    },
+    {
+      "path": "tests/fixtures/skill_bash/work/src/fixture__skills/skills/sys/SKILL.md",
+      "sha256": "ea94b6c275de42f836016a840166e8c04e93b4b0c9a2e768c2d2406c94cf8abe"
+    },
+    {
+      "path": "tests/fixtures/skill_bash/work/src/fixture__skills/skills/sys/scripts/setup.sh",
+      "sha256": "ccaefd823bce4d6b3810140497ea1768ced1460fb434fe7086abc976b0bf0046"
+    },
+    {
+      "path": "tests/test_annotations.py",
+      "sha256": "68575b3836a426880a0cd2b5b992443d776834e2a7e003318d3618c759fecc58"
+    },
+    {
+      "path": "tests/test_readme_pins.py",
+      "sha256": "04f887657b2b5c879049041deed8fe84caab7737a8904b2eb027a28c98779433"
+    },
+    {
+      "path": "tests/test_run_month.py",
+      "sha256": "118e4fa90c5ae29fa07b60bfa86a8776f01012e9742c2d9ca49de1aea3e4cf82"
+    },
+    {
+      "path": "tests/test_skill_bash.py",
+      "sha256": "a15b1fd37e72821bd4c3a93265f004d57e8950e6720a25d352234b7bea449d06"
+    }
+  ]
+}
